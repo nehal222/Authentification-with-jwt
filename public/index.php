@@ -13,16 +13,15 @@ $conf=[
 
 $c= new \Slim\Container($conf);
 $app = new \Slim\App($c);
- require '../lib/JsonService.php';
-
+ 
  
 
  require '../src/middleware.php';
   require '../src/DI.php';
-  require '../Api/BasicAuth.php';
+ // require '../Api/BasicAuth.php';
 
  require '../Api/JWTToken.php';
- require '../Api/CallServices.php';
+ //require '../Api/CallServices.php';
  // require '../APi/CallServices.php';
 
 require '../Api/postt.php';
